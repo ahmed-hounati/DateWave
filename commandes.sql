@@ -23,7 +23,7 @@ CREATE TABLE `personnel` (
     FOREIGN KEY (`IDEquipe`) REFERENCES `equipes`(`IDEquipe`)
 );
 
--- Insert sample data into equipes table
+-- Insert data into equipes table
 INSERT INTO
     `equipes` (`NomEquipe')
 VALUES
@@ -32,7 +32,7 @@ VALUES
     ('eqp3');
 
 
--- Insert sample data into personnel table
+
 INSERT INTO
     `personnel` (
         `Nom`,
@@ -50,7 +50,7 @@ VALUES
         'ahmed.hn@example.com',
         '123456789',
         'Developer',
-        1,
+        4,
         'Active'
     ),
     (
@@ -59,7 +59,7 @@ VALUES
         'lhindi@example.com',
         '987654321',
         'Designer',
-        2,
+        5,
         'Inactive'
     ),
     (
@@ -68,7 +68,7 @@ VALUES
         'nexxas@example.com',
         '456789123',
         'analyste',
-        3,
+        4,
         'Inactive'
     ),
     (
@@ -77,7 +77,7 @@ VALUES
         'jouana@example.com',
         '456789123',
         'Gestionnaire',
-        4,
+        3,
         'Active'
     ),
     (
@@ -86,7 +86,7 @@ VALUES
         'btata@example.com',
         '456789123',
         'Boss',
-        5,
+        3,
         'Active'
     ),
     (
@@ -95,6 +95,6 @@ VALUES
         'sissa@example.com',
         '456789123',
         'jam3ia',
-        6,
+        3,
         'Active'
     );
